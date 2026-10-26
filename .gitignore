@@ -1,0 +1,26 @@
+# 敏感凭据与登录态，绝不入库
+config.json
+session_cookies.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# 探索/调试脚本
+_explore/
+widget_pos.json
+widget_config.json
+
+
+# Local secrets and exports
+.env
+.env.*
+!.env.example
+*.log
+exports/

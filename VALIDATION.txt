@@ -1,0 +1,6 @@
+Validation date: 2026-10-26
+Offline tests: 9 extension tests + 19 upstream tests passed.
+MCP: initialize, tools/list (20 tools), invalid-input error passed.
+Live account: login, courses, homework list, one homework question/requirements read passed.
+No credentials, cookies, account identifiers or live course data are included.
+Other account types, attachment downloads and all upstream endpoints are not fully live-tested.
